@@ -3,7 +3,7 @@
 
 # elasticsearch back-end connection settings
 ELASTIC_SEARCH_HOST = "http://localhost:9200"
-ELASTIC_SEARCH_INDEX = "reactordb"
+ELASTIC_SEARCH_INDEX = "iucn_redlist"
 ELASTIC_SEARCH_VERSION = "1.4.4"
 
 from esprit import mappings1x
@@ -45,6 +45,5 @@ IUCN_REDLIST_CATEGORIES = {
     u'LR/nt': u'Near Threatened',
     u'DD':    u'Data Deficient',
     u'LC':    u'Least Concern',
-    u'LR/lc': u'Least Concern',
-    u'NA':    u'Not Available'
+    u'LR/lc': u'Least Concern'
 }

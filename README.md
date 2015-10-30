@@ -45,3 +45,12 @@ To start the application, you'll also need to install it into the virtualenv jus
     cd myapp
     pip install -e .
 
+## To index the data    
+___Note:___   
+___1. Make sure elastic search is running___   
+___2. Download the IUCN redlist data from the [IUCN website](http://www.iucnredlist.org/search/link/5627b7b0-218891a4) in csv format___
+  
+  ```
+  from service.importer import import_species
+  import_species('path_to_csv_file')
+  ```
