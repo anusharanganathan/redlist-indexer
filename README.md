@@ -48,7 +48,7 @@ To start the application, you'll also need to install it into the virtualenv jus
 ## To index the data    
 ___Note:___   
 ___1. Make sure elastic search is running___   
-___2. Download the IUCN redlist data from the [IUCN website](http://www.iucnredlist.org/search/link/5627b7b0-218891a4) in csv format___
+___2. Download the IUCN redlist data of interest from the [IUCN website](http://www.iucnredlist.org/search/) in csv format___. Downloading these data now requires a login and a brief (at least minutes) waiting period.
   
   ```
   from service.importer import import_species
